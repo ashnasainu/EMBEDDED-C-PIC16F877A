@@ -5,6 +5,7 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 ## 📂 Repository Structure  
 
 - **EXTERNAL INTERRUPT SWITCH** - Implementation of an external interrupt switch using Embedded C in MPLAB.
+- **TIMER 0_LED BLINKING** - Implementation of an TIMER 0_LED BLINKING using Embedded C in MPLAB.
 
 ## 🔧 Getting Started  
 
