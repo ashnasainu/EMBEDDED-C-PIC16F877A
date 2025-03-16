@@ -1,7 +1,7 @@
-# ⏳ TIMER 0 LED Blinking (Timer Interrupt)  
+# 🔢 Multiplexing Seven-Segment Display (Timer Interrupt)  
 
-This project demonstrates **LED blinking using Timer 0 interrupt** in **MPLAB X IDE** with **XC8 Compiler**. The timer generates precise delays and triggers an **interrupt** to toggle an LED without using `__delay_ms()`.  
+This project demonstrates **multiplexing a seven-segment display using a Timer interrupt** in **MPLAB X IDE** with **XC8 Compiler**. The timer interrupt is used to switch between multiple seven-segment displays efficiently, ensuring smooth and flicker-free digit display.  
 
 ## 📂 Files  
-- **TIMER 0_LED BLINKING.X/** -  MPLAB X project files  
-- **TIMER 0_LED BLINKING.pdsprj**  -  Proteus simulation file (if applicable)  
+- **LED MULTIPLEXING_TIMER INTERRUPT.X/** - MPLAB X project files  
+- **Multiplexing.pdsprj**  -  Proteus simulation file (if applicable)  
