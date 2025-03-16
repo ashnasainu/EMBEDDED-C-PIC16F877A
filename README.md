@@ -5,14 +5,14 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 ## 📂 Repository Structure  
 
 - **EXTERNAL INTERRUPT SWITCH** - Implementation of an external interrupt switch using Embedded C in MPLAB.
-- **TIMER 0_LED BLINKING** - Implementation of an TIMER 0_LED BLINKING using Embedded C in MPLAB.
-- **LED MULTIPLEXING_TIMER INTERRUPT** - Implementation of an LED MULTIPLEXING_TIMER INTERRUPT using Embedded C in MPLAB.
+- **TIMER 0_LED BLINKING** - Implementation of an LED BLINKING with TIMER 0 using Embedded C in MPLAB.
+- **LED MULTIPLEXING_TIMER INTERRUPT** - Implementation of an LED MULTIPLEXING with TIMER INTERRUPT using Embedded C in MPLAB.
 
 ## 🔧 Getting Started  
 
 ### Prerequisites  
 
-- A supported microcontroller (e.g., PIC16, PIC18, or dsPIC series).  
+-  microcontroller (PIC16F887)  
 - MPLAB X IDE installed.  
 - MPLAB XC8 Compiler.  
 - A PIC development board and necessary hardware components.  
