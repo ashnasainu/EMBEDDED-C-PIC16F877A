@@ -1,5 +1,5 @@
 #```
-# UART LED Blinking (MPLAB X & XC8)
+# UART
 
 This project uses **UART communication** to turn an LED ON or OFF via serial commands.
 
