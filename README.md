@@ -7,6 +7,8 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 - **EXTERNAL INTERRUPT SWITCH** - Implementation of an external interrupt switch using embedded C in MPLAB.
 - **TIMER 0_LED BLINKING** - Implementation of an LED blinking with timer 0 using embedded C in MPLAB.
 - **LED MULTIPLEXING_TIMER INTERRUPT** - Implementation of an LED multiplexing with timer interrupt using embedded C in MPLAB.
+- **UART (Universal Asynchronous Receiver-Transmitter)** - Implementation of UART communication with LED blinking using embedded C in MPLAB.
+
 
 ## 🔧 Getting Started  
 
