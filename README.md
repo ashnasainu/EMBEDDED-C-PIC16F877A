@@ -13,7 +13,7 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 ## 🔧 Getting Started  
 
 ### Prerequisites  
-
+ss
 - Microcontroller (PIC16F887)  
 - MPLAB X IDE installed.  
 - MPLAB XC8 Compiler.  
