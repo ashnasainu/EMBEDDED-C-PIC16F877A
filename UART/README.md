@@ -1,5 +1,5 @@
 #```
-# UART
+# UART (Universal Asynchronous Receiver-Transmitter).
 
 This project uses **UART communication** to turn an LED ON or OFF via serial commands.
 
