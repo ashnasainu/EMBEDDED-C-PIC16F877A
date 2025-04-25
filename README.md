@@ -9,7 +9,8 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 - **LED MULTIPLEXING_TIMER INTERRUPT** - Implementation of  LED multiplexing with timer interrupt using embedded C in MPLAB.
 - **UART (Universal Asynchronous Receiver-Transmitter)** - Implementation of UART communication with LED blinking using embedded C in MPLAB.
 - **LCD 8-Bit Display** - lmplementation of LCD (16x2) in 8-bit mode with a PIC16F887 microcontroller.
-- **LCD 4-Bit Display** - lmplementation of LCD (16x2) in 4-bit mode with a PIC16F887 and scroll a message to the left
+- **LCD 4-Bit Display** - lmplementation of LCD (16x2) in 4-bit mode with a PIC16F887 and scroll a message to the left.
+- **LCD 4-Bit Display with UART** - lmplementation of LCD (16x2) in 4-bit mode & UART with a PIC16F887 microcontroller.
 
 
 
