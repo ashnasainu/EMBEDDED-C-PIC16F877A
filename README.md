@@ -11,6 +11,9 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 - **LCD 8-Bit Display** - lmplementation of LCD (16x2) in 8-bit mode with a PIC16F887 microcontroller.
 - **LCD 4-Bit Display** - lmplementation of LCD (16x2) in 4-bit mode with a PIC16F887 and scroll a message to the left.
 - **LCD 4-Bit Display with UART** - lmplementation of LCD (16x2) in 4-bit mode & UART with a PIC16F887 microcontroller.
+- **Variable Resistor interfacing** - Implementation of a variable resistor interfacing with the PIC16F887 microcontroller using its ADC
+                                    & the digitized analog value is displayed on a 16x2 character LCD.  
+
 
 
 
