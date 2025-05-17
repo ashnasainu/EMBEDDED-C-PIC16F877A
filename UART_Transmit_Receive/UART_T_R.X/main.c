@@ -28,37 +28,6 @@ void main(void)
             write_string("ashna");
         }
         UART_write('\n');
-        /*
-        data=UART_receive();
-        
-        if (data != 0)
-        {
-            UART_write(data);
-            if (data == '\r')
-            {
-                string[i++] = '\0';
-                if(strcmp("ashna",string)==0)
-                {
-                    write_string("anees");
-                }
-                else if (strcmp("anees",string)==0)
-                {
-                    write_string("ashna");
-                }
-                
-                i = 0;  // Reset for next input
-            }
-            else if (data == '\b')
-            {
-                i=i--;
-            }
-            else if (i < 10)
-            {
-                //UART_write(y);
-                string[i++] = data;
-            }
-            data = 0;  // Reset y after processing
-        }*/
     }
             
     return;
