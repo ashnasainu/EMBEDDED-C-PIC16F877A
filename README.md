@@ -23,6 +23,9 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 - **2 Variable Resistor interfacing** - Implementation of 2 variable resistor interfacing with the PIC16F887 microcontroller
 using its ADC& the digitized analog value is displayed on a 16x2 character LCD. 
+
+- **UART communication_ Transmit & Receive** -Implementation of UART communication_ Transmit & Receive using a PIC16F887 microcontroller. It receives a string over UART and responds with a predefined reply.
+
                                        
                   
                                  
