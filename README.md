@@ -32,7 +32,7 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 ## 🔧 Getting Started  
 
 ### Prerequisites  
-ss
+
 - Microcontroller (PIC16F887)  
 - MPLAB X IDE installed.  
 - MPLAB XC8 Compiler.  
