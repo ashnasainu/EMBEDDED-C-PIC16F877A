@@ -12,21 +12,23 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 
 - **UART (Universal Asynchronous Receiver-Transmitter)** - Implementation of UART communication with LED blinking using  embedded C in MPLAB.
 
-- **LCD 8-Bit Display** - lmplementation of LCD (16x2) in 8-bit mode with a PIC16F887 microcontroller.
+- **LCD 8-Bit Display** - lmplementation of LCD (16x2) in 8-bit mode with a PIC16F887A microcontroller.
 
-- **LCD 4-Bit Display** - lmplementation of LCD (16x2) in 4-bit mode with a PIC16F887 and scroll a message to the left.
+- **LCD 4-Bit Display** - lmplementation of LCD (16x2) in 4-bit mode with a PIC16F887A and scroll a message to the left.
 
-- **LCD 4-Bit Display with UART** - lmplementation of LCD (16x2) in 4-bit mode & UART with a PIC16F887 microcontroller.
+- **LCD 4-Bit Display with UART** - lmplementation of LCD (16x2) in 4-bit mode & UART with a PIC16F887A microcontroller.
 
-- **Variable Resistor interfacing** - Implementation of a variable resistor interfacing with the PIC16F887 microcontroller
+- **Variable Resistor interfacing** - Implementation of a variable resistor interfacing with the PIC16F887A microcontroller
 using its ADC& the digitized analog value is displayed on a 16x2 character LCD.     
 
-- **2 Variable Resistor interfacing** - Implementation of 2 variable resistor interfacing with the PIC16F887 microcontroller
+- **2 Variable Resistor interfacing** - Implementation of 2 variable resistor interfacing with the PIC16F887A microcontroller
 using its ADC& the digitized analog value is displayed on a 16x2 character LCD. 
 
-- **UART communication_ Transmit & Receive** - Implementation of UART communication_ Transmit & Receive using a PIC16F887 microcontroller. It receives a string over UART and responds with a predefined reply.
+- **UART communication_ Transmit & Receive** - Implementation of UART communication_ Transmit & Receive using a PIC16F887A microcontroller. It receives a string over UART and responds with a predefined reply.
 
-- **Relay interfacing** - Implementation of relay interfacing using a PIC16F887 microcontroller.
+- **Relay interfacing** - Implementation of relay interfacing using a PIC16F887A microcontroller.
+
+- **4x3 Keypad Interfacing** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
 
                                             
                                  
@@ -34,7 +36,7 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 ### Prerequisites  
 
-- Microcontroller (PIC16F887)  
+- Microcontroller (PIC16F887A)  
 - MPLAB X IDE installed.  
 - MPLAB XC8 Compiler.  
 - PIC development board and necessary hardware components.  
