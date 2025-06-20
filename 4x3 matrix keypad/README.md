@@ -43,4 +43,4 @@ This project shows how to connect a **4x3 matrix keypad** to the **PIC16F887A** 
 2. Open the project in MPLAB X.  
 3. Build the code with the XC8 compiler.  
 4. Upload the HEX file to PIC16F887A.  
-5. Power the circuit & Observe the reults.
+5. Power the circuit & Observe the results.

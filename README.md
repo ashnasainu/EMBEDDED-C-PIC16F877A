@@ -1,8 +1,8 @@
-# Embedded C Programming  
+# EMBEDDED C PROGRAMMING 
 
 This repository contains fundamental Embedded C programs focused on microcontroller-based applications, including handling external interrupts and other embedded system concepts. It is intended for beginners and enthusiasts to understand and practice core Embedded C programming concepts.
 
-## 📂 Repository Structure  
+## 📂 REPOSITORY STRUCTURE : 
 
 - **EXTERNAL INTERRUPT SWITCH** - Implementation of external interrupt switch using embedded C in MPLAB.
 
@@ -18,30 +18,30 @@ This repository contains fundamental Embedded C programs focused on microcontrol
 
 - **LCD 4-Bit Display with UART** - lmplementation of LCD (16x2) in 4-bit mode & UART with a PIC16F887A microcontroller.
 
-- **Variable Resistor interfacing** - Implementation of a variable resistor interfacing with the PIC16F887A microcontroller
+- **VARIABLE RESISTOR INTERFACING** - Implementation of a variable resistor interfacing with the PIC16F887A microcontroller
 using its ADC& the digitized analog value is displayed on a 16x2 character LCD.     
 
-- **2 Variable Resistor interfacing** - Implementation of 2 variable resistor interfacing with the PIC16F887A microcontroller
+- **2 VARIABLE RESISTOR INTERFACING** - Implementation of 2 variable resistor interfacing with the PIC16F887A microcontroller
 using its ADC& the digitized analog value is displayed on a 16x2 character LCD. 
 
-- **UART communication_ Transmit & Receive** - Implementation of UART communication_ Transmit & Receive using a PIC16F887A microcontroller. It receives a string over UART and responds with a predefined reply.
+- **UART COMMUNICATION TRANSMIT & RECEIVE** - Implementation of UART communication_ Transmit & Receive using a PIC16F887A microcontroller. It receives a string over UART and responds with a predefined reply.
 
-- **Relay interfacing** - Implementation of relay interfacing using a PIC16F887A microcontroller.
+- **RELAY INTERFACING** - Implementation of relay interfacing using a PIC16F887A microcontroller.
 
-- **4x3 Keypad Interfacing** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
+- **4x3 KEYPAD INTERFACING** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
 
                                             
                                  
 ## 🔧 Getting Started  
 
-### Prerequisites  
+### PREREQUISITES  
 
 - Microcontroller (PIC16F887A)  
 - MPLAB X IDE installed.  
 - MPLAB XC8 Compiler.  
 - PIC development board and necessary hardware components.  
 
-### Compilation & Execution  
+### COMPILATION & EXECUTION
 
 1. **Open MPLAB X IDE**  
    - Create a new project and select your target PIC microcontroller.  
@@ -59,8 +59,4 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
    - Click on **Make and Program Device (F5)** to upload the code.  
 
 5. **Run & Test**  
-   - Power on your microcontroller and verify the interrupt functionality.  
-
-## 📜 License  
-
-This project is open-source. Feel free to use and modify it as needed.  
+   - Power on your microcontroller and verify the interrupt functionality. 
