@@ -30,8 +30,12 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 - **4x3 KEYPAD INTERFACING** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
 
-                                            
-                                 
+- **EEPROM Write with PIC16F887A** -  Implementation of how to write a single byte ('A') to the internal EEPROM of the PIC16F887A
+
+- **EEPROM String Display with PIC16F887A** - Implementation of how  to write a string to the internal EEPROM of a PIC16F887A and then reads and displays it on a   16x2 LCD.
+
+
+                                                                           
 ## 🔧 Getting Started  
 
 ### PREREQUISITES  
@@ -48,7 +52,7 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
    - Choose the **MPLAB XC8 Compiler**.  
 
 2. **Add the Source Code**  
-   - Copy and paste the C code into `main.c`.  
+   - Copy and paste the C code into main.c.  
    - Configure the necessary registers for your external interrupt.  
 
 3. **Build the Project**  
