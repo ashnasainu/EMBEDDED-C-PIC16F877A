@@ -30,9 +30,9 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 - **4x3 KEYPAD INTERFACING** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
 
-- **EEPROM Write with PIC16F887A** -  Implementation of how to write a single byte ('A') to the internal EEPROM of the PIC16F887A
+- **EEPROM** - Implementation of how  to write a string to the internal EEPROM of a PIC16F887A and then reads and displays it on a   16x2 LCD.
 
-- **EEPROM String Display with PIC16F887A** - Implementation of how  to write a string to the internal EEPROM of a PIC16F887A and then reads and displays it on a   16x2 LCD.
+- **DIGITAL_LOCKER SYSTEM** - Implementation of how to enter a 4-digit password using a keypad, and shows if it's correct on a 16x2 LCD.
 
 
                                                                            
