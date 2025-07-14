@@ -1,4 +1,4 @@
-unsigned char y = 0;  // Volatile to ensure updates in ISR
+unsigned char data = 0;  // Volatile to ensure updates in ISR
 
 void __interrupt() receive()
 {
@@ -6,7 +6,7 @@ void __interrupt() receive()
 
     if(PIR1bits.RCIF==1)
     {
-        y=RCREG;
+        data=RCREG;
         
         PIR1bits.RCIF=0;
     }
