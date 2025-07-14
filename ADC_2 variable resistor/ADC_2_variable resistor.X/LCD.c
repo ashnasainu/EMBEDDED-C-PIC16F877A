@@ -3,11 +3,6 @@
 #include <stdio.h>
 #define _XTAL_FREQ 20000000
 
-#define RS  PORTBbits.RB0   // Register Select Pin (instruction or data register))
-#define RW  PORTBbits.RB1   // Read/Write Pin 
-#define EN  PORTBbits.RB2   // Enable Pin
-
-
 void lcd_initialise()
 {  
     lcd_command(0x28); // Set LCD to 4-bit mode 

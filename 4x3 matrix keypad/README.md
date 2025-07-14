@@ -1,17 +1,14 @@
 # 4x3 Keypad Interfacing with PIC16F887A
 
-This project shows how to connect a **4x3 matrix keypad** to the **PIC16F887A** microcontroller and display the pressed key on a **16x2 LCD**.
+This project shows how to connect a **4x3 matrix keypad** to the **PIC16F887A** microcontroller and display the pressed key on a 16x2 LCD.
 
----
-
-## 📁 Files
+## Files
 
 - **Keypad_LCD.X/** – MPLAB X project folder  
 - **Keypad_LCD.pdsprj** – (optional) Proteus simulation file
 
----
 
-## 🧰 Requirements
+##  Requirements
 
 - MPLAB X IDE  
 - XC8 Compiler  
@@ -22,7 +19,7 @@ This project shows how to connect a **4x3 matrix keypad** to the **PIC16F887A** 
 
 ---
 
-## 🔌 Connections
+## Connections
 
 | Component     | PIC16F887A Pins     |
 |--------------|--------------------|
@@ -37,7 +34,7 @@ This project shows how to connect a **4x3 matrix keypad** to the **PIC16F887A** 
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Connect the circuit as shown above.  
 2. Open the project in MPLAB X.  
