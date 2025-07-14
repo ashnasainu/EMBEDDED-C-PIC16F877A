@@ -1,10 +1,7 @@
 #include "seven_segment.h"
 #include <xc.h>
 #define _XTAL_FREQ 20000000
-#define digit1 PORTBbits.RB3
-#define digit2 PORTBbits.RB2
-#define digit3 PORTBbits.RB1
-#define digit4 PORTBbits.RB0
+
 void seven_segment_init()
 {
 //ANSEL = 0; // Configure Analog pins as digital I/O
