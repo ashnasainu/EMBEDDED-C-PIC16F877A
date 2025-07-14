@@ -32,26 +32,26 @@ void main(void)
     
     while(1) 
     {
-        if(y=='a')
+        if(data=='a')
         {
             PORTCbits.RC1=1;
             lcd_clear();
             lcd_set_cursor(1,5); 
             lcd_string("LED ON",6);
             lcd_set_cursor(2,4);  
-            lcd_data(y);
-            y=0;
+            lcd_data(data);
+            data=0;
             
         }
-        else if(y=='b')
+        else if(data=='b')
         {
            PORTCbits.RC1=0;
            lcd_clear();
            lcd_set_cursor(1,5);  
            lcd_string("LED OFF",7);
            lcd_set_cursor(2,4);  
-           lcd_data(y);
-           y=0;
+           lcd_data(data);
+           data=0;
           
         }   
         
