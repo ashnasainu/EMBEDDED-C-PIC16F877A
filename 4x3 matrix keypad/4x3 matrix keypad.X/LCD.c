@@ -2,11 +2,6 @@
 #include "LCD.h"
 #define _XTAL_FREQ 20000000
 
-#define RS  PORTDbits.RD0   // Register Select Pin (instruction or data register))
-#define RW  PORTDbits.RD1   // Read/Write Pin 
-#define EN  PORTDbits.RD2   // Enable Pin
-
-
 void lcd_initialise()
 {  
     
