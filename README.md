@@ -34,6 +34,9 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 - **DIGITAL_LOCKER SYSTEM** - Implementation of how to enter a 4-digit password using a keypad, and shows if it's correct on a 16x2 LCD.
 
+- **CALCULATOR** - Implementation of a basic calculator using a 4x4 keypad and 16x2 LCD with a PIC16F887A microcontroller.It allows to enter two numbers and an operator (`+`, `-`, `*`, `/`) to display the result on the LCD.
+
+
 
                                                                            
 ## 🔧 Getting Started  
