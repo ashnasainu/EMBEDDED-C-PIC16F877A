@@ -19,83 +19,76 @@ void main(void)
     __delay_ms(500);
     lcd_clear();
     lcd_set_cursor(1,0);
-    char result[5] =" ";
     int value=0;
     char operant=' ';
-    char operator=' ';
+   
     int num1=0;
     int num2=0;
-    unsigned char A[10]=" "; 
-    unsigned char B[10]=" "; 
+    char A[10]=" "; 
+    char data=' ';
     int i=0;
-    
-     
+      
     while(1)
     {
+        lcd_clear();
         i=0;
         while(1)
         {
-           A[i]=keypad(); 
+           data=keypad(); 
            
-           if(A[i]=='+'||A[i]=='-'||A[i]=='*'||A[i]=='/')
+           if(data=='c')
            {
-               operant=A[i];
                break;
            }
-           lcd_data(A[i]);
-           i++;
-        }
-        
-        A[i]='\0';
-        sscanf(A, "%d", &num1);  // num1 will hold int value of str
-       
-        lcd_data(operant);
-       
-        i=0;
-        while(1)
-        {
-           B[i]=keypad(); 
-           
-           if(B[i]=='+'||B[i]=='-'||B[i]=='*'||B[i]=='/'||B[i]=='=')
-           {
-               operator=B[i];
-               break;
+           else if(data=='+'||data=='-'||data=='*'||data=='/')
+           { 
+               operant=data;
+               lcd_data(operant);
+               A[i]='\0';
+               sscanf(A, "%d", &num1);  // num1 will hold int value of str
+               i=-1;
            }
-           lcd_data(B[i]);
+           else if(data=='=')
+           {
+              A[i]='\0';
+              sscanf(A, "%d", &num2);  // num2 will hold int value of str
+              lcd_data(data);
+              break;
+           }
+           else
+           {
+               A[i]=data;
+               lcd_data(A[i]);
+           }
            i++;
+           
         }
-        
-        B[4]='\0';
-        sscanf(B, "%d", &num2);  // num2 will hold int value of str
-     
-        lcd_data(operator);
-        
-        
-        if(operant=='+')
+       
+        switch(operant)
         {
-            value=num1+num2; 
+          case '+':
+            value=num1+num2;
+            break;
+           case '-':
+            value=num1-num2;
+            break;
+           case '*':
+            value=num1*num2;
+            break;
+           case '/':
+            value=num1/num2;
+            break;
         }
-        
-        else if(operant=='-')
-        {
-            value=num1-num2;  
-        }
-        
-        else if(operant=='*')
-        {
-            value=num1*num2;  
-        }
-        else if(operant=='/')
-        {
-            value=num1/num2;   
-        }
-        
+      
         lcd_set_cursor(2,0);
         lcd_int(value);
 
-        __delay_ms(1000);
+        while(data!='c')
+            {
+                data=keypad();  
           
-    }   
-       
+            }   
+    }  
     return;
+
 }
