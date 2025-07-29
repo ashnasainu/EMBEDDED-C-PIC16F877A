@@ -36,6 +36,9 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 - **CALCULATOR** - Implementation of a basic calculator using a 4x4 keypad and 16x2 LCD with a PIC16F887A microcontroller.It allows to enter two numbers and an operator (`+`, `-`, `*`, `/`) to display the result on the LCD.
 
+-**RTC** - This project writes a time value to the RTC (DS1307) using I2C, reads it back, and displays it on a 16x2 LCD.
+
+
 
 
                                                                            
