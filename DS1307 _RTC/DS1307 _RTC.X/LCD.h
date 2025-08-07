@@ -1,6 +1,13 @@
-#define RS  PORTDbits.RD0   // Register Select Pin (instruction or data register))
-#define RW  PORTDbits.RD1   // Read/Write Pin 
-#define EN  PORTDbits.RD2   // Enable Pin
+// Control pins
+#define RS  PORTDbits.RD0
+#define RW  PORTDbits.RD1
+#define EN  PORTDbits.RD2
+
+// Data pins (D4-D7)      , 4 bit mode
+#define D4  PORTDbits.RD4
+#define D5  PORTDbits.RD5
+#define D6  PORTDbits.RD6
+#define D7  PORTDbits.RD7
 
 void lcd_initialise();
 void lcd_data(unsigned char data);
@@ -8,3 +15,4 @@ void lcd_command(unsigned char cmnd);
 void lcd_string(const unsigned char *str);
 void lcd_clear();
 void lcd_set_cursor(int a, int b);
+void lcd_int(int num);

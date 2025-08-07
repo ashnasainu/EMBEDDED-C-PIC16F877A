@@ -78,3 +78,11 @@ void lcd_string(const unsigned char *str)
     
 }
 
+void lcd_int(int num)            // converts integer value to string and displays on lcd.
+{
+    char str[5]=" ";
+    sprintf(str, "%d", num);   // Converts 'num' to a string and stores it in 'str'
+    lcd_string(str);
+}
+
+
