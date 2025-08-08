@@ -36,13 +36,13 @@ void lcd_set_cursor(int a, int b)
 
 void lcd_data(unsigned char data)
 {
-    PORTD=(data&0xf0);
+    DATA_PINS=(data&0xf0);
     RS=1;
     RW=0;
     EN=1;
     __delay_ms(2);
     EN=0;
-    PORTD=((data<<4)&0xf0);
+    DATA_PINS=((data<<4)&0xf0);
     RS=1;
     RW=0;
     EN=1;
@@ -53,13 +53,13 @@ void lcd_data(unsigned char data)
 
 void lcd_command(unsigned char cmnd)
 {
-    PORTD=cmnd&0xf0;
+    DATA_PINS=cmnd&0xf0;
     RS=0;
     RW=0;
     EN=1;
     __delay_ms(2);
     EN=0;
-    PORTD=((cmnd<<4)&0xf0);
+    DATA_PINS=((cmnd<<4)&0xf0);
     RS=0;
     RW=0;
     EN=1;

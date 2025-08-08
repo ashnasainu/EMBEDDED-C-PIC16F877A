@@ -3,11 +3,8 @@
 #define RW  PORTDbits.RD1
 #define EN  PORTDbits.RD2
 
-// Data pins (D4-D7)      , 4 bit mode
-#define D4  PORTDbits.RD4
-#define D5  PORTDbits.RD5
-#define D6  PORTDbits.RD6
-#define D7  PORTDbits.RD7
+// Data pins (D4-D7)    , 4 bit mode
+#define DATA_PINS  PORTD
 
 void lcd_initialise();
 void lcd_data(unsigned char data);
