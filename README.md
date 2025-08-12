@@ -38,6 +38,8 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 -**RTC** - This project writes a time value to the RTC (DS1307) using I2C, reads it back, and displays it on a 16x2 LCD.
 
+-**SPI EEPROM with PIC16F877A** - Implementation of how to uses a PIC16F877A to communicate with a 25AA160A EEPROM through SPI. It writes a byte to the EEPROM, then reads it back and sends messages over UART.
+
 
 
 
