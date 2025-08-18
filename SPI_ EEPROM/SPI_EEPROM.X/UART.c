@@ -33,7 +33,7 @@ char UART_receive()
 }
 
 // Receive a string via UART, terminated by carriage return '\r'
-void receive_string(unsigned char *string)
+void UART_receive_string(unsigned char *string)
 {
     int i = 0;
     char data = 0;
@@ -67,7 +67,7 @@ void UART_write(char data)
 }
 
 // Transmit a null-terminated string via UART
-void write_string(const unsigned char *str)
+void UART_write_string(const unsigned char *str)
 {
     unsigned char i = 0;
 
