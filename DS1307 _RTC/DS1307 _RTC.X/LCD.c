@@ -84,5 +84,3 @@ void lcd_int(int num)            // converts integer value to string and display
     sprintf(str, "%d", num);   // Converts 'num' to a string and stores it in 'str'
     lcd_string(str);
 }
-
-

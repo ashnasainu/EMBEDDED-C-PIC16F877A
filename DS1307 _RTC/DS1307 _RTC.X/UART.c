@@ -67,7 +67,7 @@ void UART_write(char data)
 }
 
 // Transmit a null-terminated string via UART
-void write_string(const unsigned char *str)
+void UART_write_string(const unsigned char *str)
 {
     unsigned char i = 0;
 
@@ -80,4 +80,11 @@ void write_string(const unsigned char *str)
     UART_write('\r');  // Carriage return (CR)
 
     __delay_ms(250);   // Optional delay to allow transmission to finish
+}
+
+void UART_write_int(int num)
+{
+    char str[5]=" ";
+    sprintf(str, "%d", num);   // Converts 'num' to a string and stores it in 'str'
+    UART_write_string(str);
 }
