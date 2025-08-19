@@ -99,7 +99,7 @@ unsigned char EEPROM_24C04_read(unsigned int location)
 }
 
 
-void EEPROM_24C04_read_string(unsigned int location,unsigned char *DATA)                //(Block 0 only)
+void EEPROM_24C04_read_string(unsigned int location,unsigned char *DATA)   
 {
     unsigned char i=0;
     
