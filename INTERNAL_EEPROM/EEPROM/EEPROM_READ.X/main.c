@@ -12,7 +12,10 @@ void main(void)
     lcd_initialise();
     lcd_set_cursor(1,2);
     lcd_string("EEPROM");
-     __delay_ms(5);
+    __delay_ms(5);
+     
+    char x=0;
+    unsigned char DATA[10]=""; 
     
     while(1)
     {
@@ -22,9 +25,7 @@ void main(void)
         lcd_data(x);*/
         
        
-        char x=0;
-        unsigned char DATA[10]="";                    // for string
-        EEPROM_write_string(0x90,"ashna");
+        EEPROM_write_string(0x90,"ashna"); // for string
       
         EEPROM_read_string(0x90,DATA);
         lcd_set_cursor(2,2);

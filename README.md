@@ -28,19 +28,19 @@ using its ADC& the digitized analog value is displayed on a 16x2 character LCD.
 
 - **RELAY INTERFACING** - Implementation of relay interfacing using a PIC16F887A microcontroller.
 
-- **4x3 KEYPAD INTERFACING** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
-
-- **EEPROM** - Implementation of how  to write a string to the internal EEPROM of a PIC16F887A and then reads and displays it on a   16x2 LCD.
+- **4x3_KEYPAD INTERFACING** - Implementation of 4x3 matrix keypad to the PIC16F887A microcontroller and display the pressed key on a 16x2 LCD.
 
 - **DIGITAL_LOCKER SYSTEM** - Implementation of how to enter a 4-digit password using a keypad, and shows if it's correct on a 16x2 LCD.
 
-- **CALCULATOR** - Implementation of a basic calculator using a 4x4 keypad and 16x2 LCD with a PIC16F887A microcontroller.It allows to enter two numbers and an operator (`+`, `-`, `*`, `/`) to display the result on the LCD.
+- **CALCULATOR _4x4** - Implementation of a basic calculator using a 4x4 keypad and 16x2 LCD with a PIC16F887A microcontroller.It allows to enter two numbers and an operator (`+`, `-`, `*`, `/`) to display the result on the LCD.
 
--**RTC** - This project writes a time value to the RTC (DS1307) using I2C, reads it back, and displays it on a 16x2 LCD.
+_**INTERNAL EEPROM_PIC16F877A** - This project shows how to write and read data from INTERNAL EEPROM of PIC16F877A and display it on a 16x2 LCD.
 
--**SPI EEPROM with PIC16F877A** - Implementation of how to uses a PIC16F877A to communicate with a 25AA160A EEPROM through SPI. It writes a byte to the EEPROM, then reads it back and sends messages over UART.
+_**RTC (DS1307) using I2C with PIC16F877A** - This project shows how to write , read and set time from an RTC using I2C with PIC16F877A and display it on a 16x2 LCD, and send messages through UART.
 
+_**EEPROM (25AA160A) using SPI with PIC16F877A**- This project shows how to writes and reads data from a 25AA160A EEPROM using SPI, displays it on a 16x2 LCD, and sends messages through UART.
 
+_**EEPROM (24C04) using I2C with PIC16F877A** - This project writes and reads data from 24C04 EEPROM using I2C with PIC16F877A, shows it on a 16x2 LCD, and sends messages to UART.
 
 
                                                                            

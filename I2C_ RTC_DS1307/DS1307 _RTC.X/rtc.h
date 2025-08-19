@@ -1,0 +1,11 @@
+void rtc_write(int sec, int min,int hr);
+void i2c_start();
+void i2c_stop();
+void i2c_write();
+void i2c_restart();
+int decimal_bcd();
+int bcd_int(int value);
+void rtc_read(int *second, int *minute, int *hour);
+int data_read();
+int hr_read();
+void rtc_read_time ( int *sec_data,int *min_data,int *hour);

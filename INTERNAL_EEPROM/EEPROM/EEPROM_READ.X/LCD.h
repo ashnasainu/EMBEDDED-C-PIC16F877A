@@ -8,3 +8,6 @@ void lcd_command(unsigned char cmnd);
 void lcd_string(const unsigned char *str);
 void lcd_clear();
 void lcd_set_cursor(int a, int b);
+
+
+

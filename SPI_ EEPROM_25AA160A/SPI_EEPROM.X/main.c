@@ -1,4 +1,5 @@
 #include <xc.h>
+#include"config.h"
 #include "SPI.h"
 #include "LCD.h"
 #include "UART.h"
@@ -25,6 +26,7 @@ void main(void)
     UART_write_string("Write function performed\r\n");
     __delay_ms(500);
     
+    //unsigned char data=' ';
     unsigned char DATA[10]=" "; 
     
     while(1)

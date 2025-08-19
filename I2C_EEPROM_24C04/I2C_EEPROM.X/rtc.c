@@ -8,8 +8,8 @@ unsigned char bcd=' ';
 void i2c_start()
 {
     SSPCON2bits.SEN = 1;                // Initiate Start Condition
-    while(SEN);             // Wait for Start condition to complete (SEN bit clears automatically)
-    PIR1bits.SSPIF = 0;                     // Clear SSPIF flag (Synchronous Serial Port Interrupt Flag)
+    while(SEN);                         // Wait for Start condition to complete (SEN bit clears automatically)
+    PIR1bits.SSPIF = 0;                 // Clear SSPIF flag (Synchronous Serial Port Interrupt Flag)
 }                                
 
 void i2c_stop()
@@ -96,7 +96,7 @@ void rtc_read_time ( int *sec_data,int *min_data,int *hour)
 }
 
 
-void rtc_write(int sec, int min, int hr) 
+void EEPROM_24C04_write(int sec, int min, int hr) 
 {
     int SEC=0;int MIN=0;int HR=0;
     
@@ -113,8 +113,13 @@ void rtc_write(int sec, int min, int hr)
 }
 
 
-void rtc_read(char slave_address, char register_address,int *second,int *minute,int *hour)
+void rtc_read(int *second, int *minute, int *hour)
 {
+    // RTC constants ? internal to the function
+    //char slave_address = 0xD0;  // slave(RTC)  address with write (R/W=0 ) 
+    //char slave_address  = 0xD1;  // slave(RTC) address with  read (R/W=1)
+    //char register_address = 0x00;  // Seconds register address 
+    
     int sec = 0;int min=0;int hr=0;
      
     i2c_start();               // Start condition

@@ -1,4 +1,5 @@
 #include <xc.h>
+#include"config.h"
 #include "rtc.h"
 #include "LCD.h"
 #include "I2C.h"
@@ -10,7 +11,7 @@
 
 void main(void)
 {
-    TRISC = 0xFF;    // port c as input
+    TRISC = 0xFF;    // port c as input  (SDA & SCL)
     TRISD = 0x00;    // port d as output
     TRISB = 0xFF;    // port b input
     PORTBbits.RB0 = 0;
